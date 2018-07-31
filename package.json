@@ -1,0 +1,37 @@
+{
+  "name": "rollup-typescript-starter-lib",
+  "version": "1.0.0",
+  "description": "Bare-bones example of how to create a library using Rollup and TypeScript.",
+  "main": "dist/how-long-till-lunch.min.js",
+  "module": "dist/how-long-till-lunch.esm.js",
+  "browser": "dist/how-long-till-lunch.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.spec.js",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zollero/rollup-typescript-starter-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zollero/rollup-typescript-starter-lib/issues"
+  },
+  "homepage": "https://github.com/zollero/rollup-typescript-starter-lib#readme",
+  "devDependencies": {
+    "rollup": "^0.63.4",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify": "^4.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "ms": "^2.1.1"
+  }
+}
