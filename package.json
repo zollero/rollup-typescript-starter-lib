@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/zollero/rollup-typescript-starter-lib#readme",
   "devDependencies": {
+    "@types/ms": "^0.7.30",
     "rollup": "^0.63.4",
     "rollup-plugin-commonjs": "^9.1.4",
     "rollup-plugin-json": "^3.0.0",
