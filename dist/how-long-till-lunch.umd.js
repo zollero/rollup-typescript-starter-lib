@@ -1,3 +1,8 @@
+/**
+ * rollup-typescript-starter-lib v1.0.0
+ * Copyright 2018 zollero <corona7@163.com>
+ */
+
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('ms')) :
     typeof define === 'function' && define.amd ? define(['ms'], factory) :
