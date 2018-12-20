@@ -31,8 +31,8 @@
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-typescript": "^0.8.1",
     "rollup-plugin-uglify": "^4.0.0",
-    "typescript": "^2.9.2",
-    "uglify-es": "^3.3.9"
+    "terser": "^3.13.1",
+    "typescript": "^3.2.2"
   },
   "dependencies": {
     "ms": "^2.1.1"

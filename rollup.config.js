@@ -5,7 +5,7 @@ import json from 'rollup-plugin-json';
 import resolve from 'rollup-plugin-node-resolve';
 import typescript from 'rollup-plugin-typescript';
 import { uglify } from 'rollup-plugin-uglify';
-import { minify } from 'uglify-es'
+import { minify } from 'terser'
 import license from 'rollup-plugin-license'
 import { name, version, main, module, browser, author } from './package.json'
 
