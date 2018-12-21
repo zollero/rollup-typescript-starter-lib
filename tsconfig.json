@@ -5,7 +5,6 @@
         "experimentalDecorators": true,
         "isolatedModules": true,
         "module": "es2015",
-        "noEmitOnError": true,
         "noImplicitAny": true,
         "noImplicitThis": true,
         "noUnusedLocals": true,
